@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SELECCION ARGENTINA DE FUTBOL</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-xB6OT0Gn0t8h5DXFpfNrqJdDZL9sm3kXC1Vffp8HLk5X1MvTbRWU5tFGoM9bDbeI" crossorigin="anonymous">
 </head>
 <body>
     <header class="d-flex align-items-center justify-content-around mb-5 fixed-top">
@@ -45,38 +47,65 @@
         </nav>
     </header>
     <main class="my-5">
-        <section class="formulario">
-            <h3>Formulario</h3>
-            <input class="controles" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-            <input class="controles" type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido">
-            <input class="controles" type="email" name="email" id="email" placeholder="Ingrese su Email">
-            <input class="controles" type="text" name="comentario" id="comentario" placeholder="Opinion de la pagina o contenido para agregar">
-            <p>SOS FANATICO DE LA SCALONETA?</p>
-            <label>
-            <input type="radio" name="eleccion" value="Si"> Si
-            <input type="radio" name="eleccion" value="No"> No
-            </label>
-            <p><input type="submit" value="Enviar"></p>
-        </section>
-        <section>
-            <article>
+        <div class="contenedor-formulario">
+            <div class="formulario">
+                <h3>Formulario</h3>
+                <input class="controles" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                <input class="controles" type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido">
+                <input class="controles" type="email" name="email" id="email" placeholder="Ingrese su Email">
+                <input class="controles" type="text" name="comentario" id="comentario" placeholder="Opinion de la pagina o contenido para agregar">
+                <p>SOS FANATICO DE LA SCALONETA?</p>
+                <label>
+                    <input type="radio" name="eleccion" value="Si"> Si
+                    <input type="radio" name="eleccion" value="No"> No
+                </label>
+                <p><input type="submit" value="Enviar"></p>
+            </div>
+            <article class="contenedor-contacto">
+                <h2>CAMPEONES DEL MUNDO⭐⭐⭐</h2>
                 <img class="messi-campeon" src="../assets/images/messi-campeon.jpg" alt="Messi Campeon">
             </article>
-        </section>
-    </main>
-    <footer>
-        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0167135736438!2d-58.38414532471735!3d-34.60373887295432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1682304924858!5m2!1ses-419!2sar" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        <div>
-            <ul>
-                <li><img src="../assets/icon/square-instagram.svg" alt="instagram">Instagram</li>
-                <li><img src="../assets/icon/square-twitter.svg" alt="twitter">Twitter</li>
-                <li><img src="../assets/icon/square-github.svg" alt="github">Github</li>
-                <li><img src="../assets/icon/linkedin.svg" alt="linkedin">Linkedin</li>
-            </ul>
         </div>
-        <p2>matiasmene@gmail.com</p2>
-        <p3>1565387090</p3>
-    </footer>
+    </main>
+    <div class="container-1 my-5">
+        <footer class="bg-dark text-center text-white">
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Twitch -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="bi bi-twitch"></i>
+            </a>
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="bi bi-twitter"></i>
+            </a>
+            <!-- Whatsapp -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="bi bi-whatsapp"></i>
+            </a>
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="bi bi-instagram"></i>
+            </a>
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="bi bi-linkedin"></i>
+            </a>
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+              ><i class="bi bi-github"></i>
+            </a>
+          </section>
+        </div>
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      </div>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js">  
 </body>
 </html>
