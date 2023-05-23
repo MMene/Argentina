@@ -74,7 +74,7 @@ span{
 }
 
 .foto-titulo{
-    width: 40vw;
+    width: 90%;
     height: 350px;
     margin: 10px;
     border: 5px solid rgb(13, 42, 74);
@@ -164,9 +164,12 @@ table tr th, td {
     padding: 10px; /* Añade un espacio interno al párrafo */
  } 
  
+
   
 .cancion-argentina{
-text-align: right;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;;
 }
 
 .contenedor-formulario{
@@ -214,7 +217,7 @@ text-align: right;
     margin-left: 75%;
 }
 
-@media (max-width: 767px) {
+@media(max-width:767px) {
     .responsive-table th,
     .responsive-table td {
         font-size: 12px;
@@ -222,4 +225,24 @@ text-align: right;
     .logo .logo-estrellas {
         display: none;
     }
+
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+    }
+        
+    .primer-parrafo, .segundo-parrafo, .tercer-parrafo, .cuarto-parrafo{
+          width: 100vw;
+          margin: 40px auto;
+          font-size: 20px;
+          padding-left: 5px;
+          padding-right: 10px;
+    }
+    
+    .foto-titulo{
+        width: 95vw;
+        margin: 30px auto;
+    }
+
 }
+
