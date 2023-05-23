@@ -16,7 +16,7 @@
     <header class="d-flex align-items-center justify-content-around mb-5 fixed-top">
         <h1>ROAD TO QATAR ⚽</h1>
         <div class="d-flex align-items-center logo">
-            <img class="logo-estrellas" src="../assets/images/3-estrellas.PNG" alt="3 Estrellas">
+            <img class="logo-estrellas" src="../assets/images/3-estrellas.png" alt="3 Estrellas">
         </div>
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid">
@@ -46,64 +46,95 @@
             </div>
         </nav>
     </header>
-    <main class="my-5">
-        <section class="videos-hinchada1">
-            <article>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/_BNTtLhXZAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/b7aQqAFio2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </article>
-        </section>
-        <section class="videos-hinchada2">
-            <article>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ricHDE1FV8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/bBmVVQnocjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </article>
-        </section>
-        <section class="cancion-argentina">
-            <article>
-                <p>Esta locura no la traten de entender <br> No tiene cura, se lleva en la piel</br>Una cumbia, asado y Fernet<br> Hasta en la tumba te voy a querer</br></p>
-            </article>
-        </section>
+    <main>
+      <section class="contenedor-videos">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <iframe class="d-block w-100" src="https://www.youtube.com/embed/ricHDE1FV8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>La Gloria Eterna</h5>
+                <p>Resumen del camino al campeonato del mundo</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <iframe class="d-block w-100" src="https://www.youtube.com/embed/bBmVVQnocjc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Festejos Argentinos</h5>
+                <p>La consagración de Argentina visto desde el hincha</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <iframe class="d-block w-100" src="https://www.youtube.com/embed/b7aQqAFio2s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>El día que temblo la tierra</h5>
+                <p>Como se vivio el penal de montiel y Argentina campeon del mundo</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <iframe class="d-block w-100" src="https://www.youtube.com/embed/_BNTtLhXZAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Fourth slide label</h5>
+                <p>Some representative placeholder content for the fourth slide.</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
     </main>
     <div class="container-1 my-5">
-        <footer class="bg-dark text-center text-white">
+      <footer class="bg-dark text-center text-white">
         <div class="container p-4 pb-0">
           <!-- Section: Social media -->
           <section class="mb-4">
             <!-- Twitch -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="bi bi-twitch"></i>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.twitch.tv/mmene10" target="_blank" role="button"
+            ><i class="bi bi-twitch"></i>
             </a>
             <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="bi bi-twitter"></i>
+             <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/MatiAgustinMene" target="_blank" role="button"
+            ><i class="bi bi-twitter"></i>
             </a>
             <!-- Whatsapp -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="bi bi-whatsapp"></i>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://wa.me/?phone_5491165387090" target="_blank" role="button"
+            ><i class="bi bi-whatsapp"></i>
             </a>
             <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="bi bi-instagram"></i>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/matymene/" target="_blank" role="button"
+            ><i class="bi bi-instagram"></i>
             </a>
             <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="bi bi-linkedin"></i>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/mat%C3%ADas-agust%C3%ADn-mene-38123b171/" target="_blank" role="button"
+            ><i class="bi bi-linkedin"></i>
             </a>
             <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-              ><i class="bi bi-github"></i>
+            <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/MMene" target="_blank" role="button" 
+            ><i class="bi bi-github"></i>
             </a>
           </section>
         </div>
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © 2023 Copyright:
-          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        © 2023 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
         </div>
         <!-- Copyright -->
       </footer>
-      </div>
+    </div>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -18,7 +18,7 @@ body{
 
 footer{
     position: absolute;
-    width: 100%;
+    width: 100vw;
 }
 
 header{
@@ -45,7 +45,7 @@ section .resumen{
     margin-right: 10px;
     justify-content: center;
     padding: 4px;
-    font-size: 24px;
+    font-size: 23px;
     width: 50%;
 }
 
@@ -146,12 +146,15 @@ table tr th, td {
   }
   .grid-item p {
     margin-top: 40px;
-    margin-left: 5%;
-    max-width: 90%;
+    margin-left: 10%;
+    max-width: 80%;
+    align-items: center;
     border-radius: 5%;
-    background-color: rgb(13, 42, 74); /* Color de fondo para el párrafo */
-    color: white; /* Color de texto para el párrafo */
-    padding: 10px; /* Añade un espacio interno al párrafo */
+    background-color: rgb(13, 42, 74);
+    color: white; 
+    padding: 10px; 
+    margin-bottom: 3rem;
+    height: 20vh;
   }
   
  .grid-item .parrafo-fondo{
@@ -159,9 +162,9 @@ table tr th, td {
     margin-left: 25%;
     max-width: 50%;
     border-radius: 5%;
-    background-color: rgb(13, 42, 74); /* Color de fondo para el párrafo */
-    color: white; /* Color de texto para el párrafo */
-    padding: 10px; /* Añade un espacio interno al párrafo */
+    background-color: rgb(13, 42, 74); 
+    color: white; 
+    padding: 10px; 
  } 
  
 
@@ -185,7 +188,7 @@ table tr th, td {
     color: black;
     border: 5px solid black;
     margin-left: 20px;
-    margin-right: 20px; /* Margen a la derecha para separar del artículo */
+    margin-right: 20px; 
 }
 
 .formulario h3{
@@ -205,19 +208,35 @@ table tr th, td {
 .contenedor-contacto{
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centra horizontalmente el contenido */
-    text-align: center; /* Centra el texto horizontalmente */
+    align-items: center;
+    text-align: center; 
 }
 
 .messi-campeon {
-    max-width: 100%; /* Ajusta el ancho máximo de la imagen */
+    max-width: 100%;
 }
 
-.mapa{
-    margin-left: 75%;
+.contenedor-videos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 20px;
 }
 
-@media(max-width:767px) {
+iframe{
+    height: 90vh;
+    width: 100vw;
+}
+
+@media(max-width:1438px) and (min-width:1000px){
+    .section-1 .resumen{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width:1000px) {
     .responsive-table th,
     .responsive-table td {
         font-size: 12px;
