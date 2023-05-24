@@ -256,6 +256,7 @@ iframe{
     .section-1 {
         display: flex;
         flex-direction: column;
+        width: 90%;
     }
     
     section .resumen{
@@ -264,7 +265,7 @@ iframe{
 
     .primer-parrafo, .segundo-parrafo, .tercer-parrafo, .cuarto-parrafo{
           width: 100%;
-          margin: 40px auto;
+          margin: 40px 0;
           font-size: 20px;
           padding-left: 5px;
           padding-right: 10px;
