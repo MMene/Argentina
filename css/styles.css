@@ -21,6 +21,11 @@ footer{
     width: 100vw;
 }
 
+main.my-5{
+    height: 100%;
+    min-height: 100%;
+}
+
 header{
     width: 100vw;
     background-color: rgb(13, 42, 74, 0.712);
@@ -74,7 +79,7 @@ span{
 }
 
 .foto-titulo{
-    width: 90%;
+    width: 50vw;
     height: 350px;
     margin: 10px;
     border: 5px solid rgb(13, 42, 74);
@@ -155,7 +160,7 @@ table tr th, td {
     padding: 10px; 
     margin-bottom: 3rem;
     min-height: 30vh;
-    font-size: 1rem;
+    font-size: calc(1em + 1vw)
   }
   
  .grid-item .parrafo-fondo{
