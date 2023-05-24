@@ -239,7 +239,8 @@ iframe{
 
 @media(max-width:1438px) and (min-width:1000px){
     .section-1 .resumen{
-        font-size: 1rem;
+        width: 50%;
+        font-size: 120%;
     }
 }
 
@@ -256,7 +257,11 @@ iframe{
         display: flex;
         flex-direction: column;
     }
-        
+    
+    section .resumen{
+        width: 100%;
+    }
+
     .primer-parrafo, .segundo-parrafo, .tercer-parrafo, .cuarto-parrafo{
           width: 100%;
           margin: 40px auto;
