@@ -24,6 +24,7 @@ footer{
 main.my-5{
     height: 100%;
     min-height: 100%;
+    width: 100%;
 }
 
 header{
@@ -45,9 +46,9 @@ header{
 }
 
 section .resumen{
-    margin-top: 0px;
+    margin-top: 20px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 30px;
     justify-content: center;
     padding: 4px;
     font-size: 23px;
