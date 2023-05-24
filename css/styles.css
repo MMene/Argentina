@@ -258,7 +258,7 @@ iframe{
     }
         
     .primer-parrafo, .segundo-parrafo, .tercer-parrafo, .cuarto-parrafo{
-          width: 100vw;
+          width: 100%;
           margin: 40px auto;
           font-size: 20px;
           padding-left: 5px;
