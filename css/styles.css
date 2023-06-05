@@ -36,6 +36,31 @@ header{
     -webkit-backdrop-filter: blur(16px) saturate(180%);  
 }
 
+.logo .logo-estrellas{
+    width: 200px;
+    height: 50px;
+}
+
+.titulo-nav{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+h1{
+    text-align: center;
+    border: 5px solid rgb(13, 42, 74);
+    border-radius: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto 0px auto ;
+    background-color: rgb(13, 42, 74, 0.712);
+    color: white;
+}
+
+/* INDEX HTML */
 .section-1{
     display: flex;
     justify-content: space-between;
@@ -59,29 +84,6 @@ section .resumen{
     margin: 70px 0;
 }
 
-h1{
-    text-align: center;
-    border: 5px solid rgb(13, 42, 74);
-    border-radius: 5%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    width: 60vw;
-    justify-content: center;
-    align-items: center;
-    margin: 80px auto 0px auto ;
-    background-color: rgb(13, 42, 74, 0.712);
-    color: white;
-}
-
-.titulo-nav{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: white;
-    font-size: 30px;
-}
-
-h2{
-    text-align: end;
-}
-
 span{
     font-weight: bold;
 }
@@ -101,13 +103,9 @@ span{
     border-radius: 5%;
     box-shadow: 0 0 10px rgba(0, 174, 239, 0.5);
  }
+/* INDEX HTML */
 
-.logo .logo-estrellas{
-    width: 200px;
-    height: 50px;
-} 
-
-
+/* JUGADORES HTML */
 .table{
     margin: 5vh auto;
     border: 5px solid black;
@@ -134,7 +132,9 @@ table tr th, td {
     font-size: larger ;
     font-weight: bold;
 }
+/* JUGADORES HTML */
 
+/* CAMISETAS HTML */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -185,9 +185,10 @@ table tr th, td {
     background-color: rgb(13, 42, 74); 
     color: white; 
     padding: 10px; 
- } 
+ }
+/* CAMISETAS HTML */
  
-
+/* CONTACTO HTML */
 .contenedor-formulario{
     margin-top: 100px;
     display: flex;
@@ -228,7 +229,9 @@ table tr th, td {
 .messi-campeon {
     max-width: 100%;
 }
+/* CONTACTO HTML */
 
+/* HINCHADA HTML */
 .contenedor-videos{
     max-height: 100vh;
     margin: 30px auto 0px auto;
@@ -239,6 +242,13 @@ iframe{
     height: 90vh;
     width: 100vw;
 }
+
+h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* HINCHADA HTML */
 
 @media(max-width:1438px) and (min-width:1000px){
     .section-1 .resumen{
@@ -309,5 +319,25 @@ iframe{
     .contenedor-contacto h2{
         text-align: center;
     }
+    
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .grid-item .imagen-fondo{
+        max-width: 80%;
+        border-radius: 5%;
+        border: 5px solid rgb(13, 42, 74);
+        transition: transform 0.3s ease; /* Agrega una transición suave */
+    }
+
+    .grid-item .parrafo-fondo{
+        font-size: 1rem;
+        max-width: 80%;
+        min-height: 5vh;
+        justify-content: center;
+        margin: 40px auto 0px auto;
+
+    }
 }
