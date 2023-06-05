@@ -60,8 +60,22 @@ section .resumen{
 }
 
 h1{
+    text-align: center;
+    border: 5px solid rgb(13, 42, 74);
+    border-radius: 5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto 0px auto ;
+    background-color: rgb(13, 42, 74, 0.712);
+    color: white;
+}
+
+.titulo-nav{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
+    font-size: 30px;
 }
 
 h2{
@@ -95,7 +109,7 @@ span{
 
 
 .table{
-    margin: 15vh auto;
+    margin: 5vh auto;
     border: 5px solid black;
     width: 70%;
     border-radius: 0 0 20px 20px;
@@ -104,7 +118,6 @@ span{
     width: 100%;
     border-collapse: collapse;
 }
-
 
 table tr th, td {
     border: 2px solid black;
@@ -126,7 +139,7 @@ table tr th, td {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
-    margin-top: 120px;
+    margin-top: 60px;
   }
   
   .grid-item {
@@ -175,13 +188,6 @@ table tr th, td {
  } 
  
 
-  
-.cancion-argentina{
-    display: flex; 
-    justify-content: center; 
-    align-items: center;;
-}
-
 .contenedor-formulario{
     margin-top: 100px;
     display: flex;
@@ -224,12 +230,9 @@ table tr th, td {
 }
 
 .contenedor-videos{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-    margin-top: 100px;
-    margin-bottom: 20px;
+    max-height: 100vh;
+    margin: 30px auto 0px auto;
+    max-width: 90%;
 }
 
 iframe{
@@ -259,6 +262,10 @@ iframe{
         width: 90%;
     }
     
+    h1{
+        margin: 100px auto 0px auto;
+    }
+
     section .resumen{
         width: 100%;
     }
@@ -270,13 +277,13 @@ iframe{
           padding-left: 5px;
           padding-right: 10px;
     }
-    
+
     .foto-titulo{
-        width: 95vw;
-        margin: 30px auto;
+        width: 100vw;
+        margin-top: 30px;
     }
 
-    h1{
+    .titulo-nav{
      font-size: 1,8rem;
     }
     
@@ -284,5 +291,23 @@ iframe{
         font-size: 1rem;
         min-height: 5vh;
     }
-}
+    
+    .contenedor-formulario{
+        display: flex;
+        flex-direction: column;
+    }
 
+    .formulario{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contenedor-contacto{
+        width: 90%;
+        margin: 20px auto 0px auto;
+    }
+
+    .contenedor-contacto h2{
+        text-align: center;
+    }
+
+}
