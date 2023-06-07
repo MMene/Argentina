@@ -1,0 +1,88 @@
+//Media Queries
+@media(max-width:1438px) and (min-width:1000px){
+    .section-1 .resumen{
+        width: 50%;
+        font-size: 120%;
+    }
+}
+
+@media(max-width:1000px) {
+    .logo .logo-estrellas {
+        display: none;
+    }
+
+    .section-1 {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    
+    h1{
+        margin: 100px auto 0px auto;
+    }
+
+    section .resumen{
+        width: $dimension-completa;
+    }
+
+    .primer-parrafo, .segundo-parrafo, .tercer-parrafo, .cuarto-parrafo{
+          width: $dimension-completa;
+          margin: 40px 0;
+          font-size: 20px;
+          padding-left: 5px;
+          padding-right: 10px;
+    }
+
+    .foto-titulo{
+        width: 100vw;
+        margin-top: 30px;
+    }
+
+    .titulo-nav{
+     font-size: 1,8rem;
+    }
+    
+    .grid-item p{
+        font-size: 1rem;
+        min-height: 5vh;
+    }
+    
+    .contenedor-formulario{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .contenedor-contacto{
+        width: 90%;
+        margin: 20px auto 0px auto;
+    }
+
+    .contenedor-contacto h2{
+        text-align: $posicionamiento-centro;
+    }
+    
+    .grid-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-item .imagen-fondo{
+        max-width: 80%;
+        border-radius: $radio-borde;
+        border: $borde;
+        transition: transform 0.3s ease; /* Agrega una transición suave */
+    }
+
+    .grid-item .parrafo-fondo{
+        font-size: 1rem;
+        max-width: 80%;
+        min-height: 5vh;
+        justify-content: $posicionamiento-centro;
+        margin: 40px auto 0px auto;
+
+    }
+}
