@@ -10,16 +10,15 @@ $radio-borde: 5%;
 $posicionamiento-centro: center;
 
 //IMPORTS
-//IMPORT PROPIEDADES GENERALES
-@import "layout/footer";
-@import "layout/header";
-@import "views/camisetas-grid";
-@import "views/contact";
-@import "views/hinchada";
-@import "views/index";
-@import "views/jugadores";
-@import "views/titulos";
-@import "base/media-queries";
+@import "./layout/footer";
+@import "./layout/header";
+@import "./views/camisetas-grid";
+@import "./views/contact";
+@import "./views/hinchada";
+@import "./views/index";
+@import "./views/jugadores";
+@import "./views/titulos";
+@import "./base/media-queries";
 
 *{
     font-family: 'Roboto', sans-serif;
