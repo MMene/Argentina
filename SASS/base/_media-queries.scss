@@ -7,7 +7,7 @@
 }
 
 @media(max-width:1000px) {
-    .logo .logo-estrellas {
+    header .logo .logo-estrellas {
         display: none;
     }
 
@@ -21,11 +21,11 @@
         margin: 100px auto 0px auto;
     }
 
-    section .resumen{
+    .section-1 .resumen{
         width: $dimension-completa;
     }
 
-    .primer-parrafo, .segundo-parrafo, .tercer-parrafo, .cuarto-parrafo{
+    .section-1 .resumen .primer-parrafo, .segundo-parrafo, .tercer-parrafo, .cuarto-parrafo{
           width: $dimension-completa;
           margin: 40px 0;
           font-size: 20px;
@@ -33,16 +33,16 @@
           padding-right: 10px;
     }
 
-    .foto-titulo{
+    .section-1 .images-index .foto-titulo{
         width: 100vw;
         margin-top: 30px;
     }
 
-    .titulo-nav{
+    header .titulo-nav{
      font-size: 1,8rem;
     }
     
-    .grid-item p{
+    .grid-container .grid-item p{
         font-size: 1rem;
         min-height: 5vh;
     }
@@ -52,16 +52,16 @@
         flex-direction: column;
     }
 
-    .formulario{
+    .contenedor-formulario .formulario{
         width: 90%;
         margin: 0 auto;
     }
-    .contenedor-contacto{
+    .contenedor-formulario .contenedor-contacto{
         width: 90%;
         margin: 20px auto 0px auto;
     }
 
-    .contenedor-contacto h2{
+    .contenedor-formulario .contenedor-contacto h2{
         text-align: $posicionamiento-centro;
     }
     
@@ -70,14 +70,14 @@
         flex-direction: column;
     }
 
-    .grid-item .imagen-fondo{
+    .grid-container .grid-item .imagen-fondo{
         max-width: 80%;
         border-radius: $radio-borde;
         border: $borde;
         transition: transform 0.3s ease; /* Agrega una transición suave */
     }
 
-    .grid-item .parrafo-fondo{
+    .grid-container .grid-item .parrafo-fondo{
         font-size: 1rem;
         max-width: 80%;
         min-height: 5vh;
