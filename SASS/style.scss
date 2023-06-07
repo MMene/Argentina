@@ -11,13 +11,13 @@ $posicionamiento-centro: center;
 
 //IMPORTS
 //IMPORT PROPIEDADES GENERALES
-@import "./base/propiedades-generales";
-@import "./base/media-queries";
-@import "./layout/footer";
-@import "./layout/header";
-@import "./views/camisetas-grid";
-@import "./views/contact";
-@import "./views/hinchada";
-@import "./views/index";
-@import "./views/jugadores";
-@import "./views/titulos";
+@import "../sass/base/propiedades-generales";
+@import "../sass/base/media-queries";
+@import "../sass/layout/footer";
+@import "../sass/layout/header";
+@import "../sass/views/camisetas-grid";
+@import "../sass/views/contact";
+@import "../sass/views/hinchada";
+@import "../sass/views/index";
+@import "../sass/views/jugadores";
+@import "../sass/views/titulos";
