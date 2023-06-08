@@ -70,14 +70,14 @@
         flex-direction: column;
     }
 
-    .grid-container .grid-item .imagen-fondo{
+    section .grid-item .imagen-fondo{
         max-width: 80%;
         border-radius: $radio-borde;
         border: $borde;
         transition: transform 0.3s ease; /* Agrega una transición suave */
     }
 
-    .grid-container .grid-item .parrafo-fondo{
+    section .grid-item .parrafo-fondo{
         font-size: 1rem;
         max-width: 80%;
         min-height: 5vh;

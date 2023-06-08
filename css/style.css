@@ -193,8 +193,18 @@ h1 {
   margin: 80px auto 0px auto;
   background-color: rgb(13, 42, 74);
   color: white;
+  animation-duration: 1s;
+  animation-name: aparecer;
 }
 
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @media (max-width: 1438px) and (min-width: 1000px) {
   .section-1 .resumen {
     width: 50%;
@@ -253,13 +263,13 @@ h1 {
     display: flex;
     flex-direction: column;
   }
-  .grid-container .grid-item .imagen-fondo {
+  section .grid-item .imagen-fondo {
     max-width: 80%;
     border-radius: 5%;
     border: 5px solid rgb(13, 42, 74);
     transition: transform 0.3s ease; /* Agrega una transición suave */
   }
-  .grid-container .grid-item .parrafo-fondo {
+  section .grid-item .parrafo-fondo {
     font-size: 1rem;
     max-width: 80%;
     min-height: 5vh;
