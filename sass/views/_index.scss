@@ -1,0 +1,41 @@
+//INDEX HTML
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0%;
+    min-height: $dimension-completa;
+    width: $dimension-completa;
+    position: relative;
+
+.resumen{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 30px;
+    justify-content: $posicionamiento-centro;
+    padding: 4px;
+    font-size: 23px;
+    width: 50%;
+    .primer-parrafo, .segundo-parrafo, .tercer-parrafo, .cuarto-parrafo{
+        margin: 70px 0;
+        span {
+            font-weight: bold;
+            }
+    }
+}
+.images-index{
+    display: flex;
+    padding: 0%;
+    flex-direction: column;
+    margin-top: 60px;
+    .foto-titulo{
+        width: 50vw;
+        height: 350px;
+        margin-top: 30px;
+        border: $borde;
+        border-radius: $radio-borde;
+        box-shadow: 0 0 10px rgba(0, 174, 239, 0.5);
+    }
+}
+
+}
+//INDEX HTML
