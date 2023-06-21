@@ -32,25 +32,25 @@
             <div class="container-fluid">
                 <a class="navbar-brand text-white" href="../index.html">Inicio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                  <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="../pages/jugadores.html">Jugadores</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-white" href="../pages/camisetas.html">Camisetas</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link text-white" href="../pages/hinchada.html">Hinchada</a>
-                    <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Contacto</a>
-                    </li>
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="../pages/jugadores.html">Jugadores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="../pages/camisetas.html">Camisetas</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="../pages/hinchada.html">Hinchada</a>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contacto</a>
+                      </li>
                     </ul>
                     <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">🔎</button>
+                      <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">🔎</button>
                     </form>
                 </div>
             </div>
@@ -59,7 +59,7 @@
     <main class="my-5"> 
       <!-- FORMULARIO -->
       <section class="contenedor-formulario">
-            <div class="formulario">
+            <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" class="formulario">
                 <h3>FORMULARIO</h3>
                 <input class="controles" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
                 <input class="controles" type="text" name="apellido" id="apellido" placeholder="Ingrese su Apellido">
@@ -74,13 +74,13 @@
             </div>
             <!-- FOTO Y TITULO MESSI -->
             <article class="contenedor-contacto">
-                <h2>CAMPEONES DEL MUNDO⭐⭐⭐</h2>
-                <img class="messi-campeon" src="../assets/images/messi-campeon.jpg" alt="Messi Campeon">
+                <h2 data-aos="zoom-out-down">CAMPEONES DEL MUNDO⭐⭐⭐</h2>
+                <img data-aos="zoom-out-down" class="messi-campeon" src="../assets/images/messi-campeon.jpg" alt="Messi con la Copa Del Mundo">
             </article>
       </section>
     </main>
     <div class="container-1 my-5">
-      <footer class="bg-dark text-center text-white">
+      <footer class="custom-footer text-center text-white">
         <div class="container p-4 pb-0">
           <!-- Section: Social media -->
           <section class="mb-4">
@@ -122,6 +122,6 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-    </script> 
+    </script>
 </body>
 </html>

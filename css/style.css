@@ -4,6 +4,10 @@ footer {
   width: 100%;
 }
 
+.custom-footer {
+  background-color: rgba(13, 42, 74, 0.712);
+}
+
 header {
   width: 100vw;
   background-color: rgba(13, 42, 74, 0.712);
@@ -20,6 +24,10 @@ header .titulo-nav {
 header .logo .logo-estrellas {
   width: 200px;
   height: 50px;
+}
+
+.navbar-toggler {
+  background-color: white;
 }
 
 .grid-container {
