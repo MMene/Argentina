@@ -126,6 +126,7 @@ section .grid-item .parrafo-fondo {
   max-height: 100vh;
   margin: 30px auto 0px auto;
   max-width: 90%;
+  border: 5px solid rgb(13, 42, 74);
 }
 .contenedor-videos iframe {
   height: 90vh;
@@ -283,6 +284,9 @@ h1 {
     min-height: 5vh;
     justify-content: center;
     margin: 40px auto 0px auto;
+  }
+  .contenedor-videos iframe {
+    height: 70vh;
   }
 }
 * {
